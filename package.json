@@ -1,0 +1,20 @@
+{
+  "name": "chat-bot",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "test": "json",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JChatelin/Chat-bot.git"
+  },
+  "author": "JChatelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JChatelin/Chat-bot/issues"
+  },
+  "homepage": "https://github.com/JChatelin/Chat-bot#readme"
+}
