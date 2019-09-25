@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JChatelin/Chat-bot/issues"
   },
-  "homepage": "https://github.com/JChatelin/Chat-bot#readme"
+  "homepage": "https://github.com/JChatelin/Chat-bot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
