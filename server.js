@@ -1,11 +1,20 @@
 const express = require("express")
 const app = express()
+app.use(express.json())
 
-app.get('/hello:name?', function(req, res) {
+app.get('/hello', function(req, res) {
     if (req.query.name) {
         res.send("Hello " + req.query.name + "!\n")
     } else {
         res.send("What is your name?\n");
+    }
+})
+
+app.post('/chat', function(req, res) {
+    if (req.body.msg == "ville") {
+        res.send("We are in Paris!\n")
+    } else if(req.body.msg == "météo") {
+        res.send("It's sunny!\n")
     }
 })
 
